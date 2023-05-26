@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    margin: 0 auto;
+    justify-content:space-evenly;
+    height:100vh;
+
+}
+header {
+    display: flex;
+    background-image: linear-gradient(black, violet);
+    background-size: cover;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    flex:2;
+}

@@ -3,7 +3,7 @@ body {
     margin: 0 auto;
     justify-content:space-evenly;
     height:100vh;
-
+    background-color: rgb(248, 248, 248);
 }
 header {
     display: flex;
@@ -12,8 +12,52 @@ header {
     flex:1;
     align-items: center;
     justify-content: center;
+
 }
 
-section {
+#right-side {
+    display: flex;
     flex:2;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.parent-form {
+    display: flex;
+    justify-content:baseline
+}
+input {
+    display: block;
+    width: 200px;
+    border-radius: 5px;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+input:valid {
+    border: 1px solid green;
+}
+input:focus {
+    background-color: rgb(209, 209, 255);
+}
+section div {
+    gap:60px;
+    margin: 0 0 20px 0;
+}
+button{
+    margin: 10px;
+    width: 150px;
+    background-color: green;
+    padding: 12px 24px;
+    color: white;
+    border-radius: 10px;
+}
+form {
+    background-color: white;
+    box-shadow: 2px 2px 6px;
+    padding: 0 10px 20px 10px;
+}
+p {
+    padding: 0 0 0 10px;
+    width: min(600px, 70%);
 }
